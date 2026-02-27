@@ -1,5 +1,5 @@
 # Bank Customer Churn Analysis
-**Predicting which customers are likely to leave — and what banks can do about it**
+**Predicting which customers are likely to leave - and what banks can do about it**
 
 
 ## Project Overview
@@ -23,7 +23,6 @@ This project analyzes churn patterns across 10,000 retail bank customers to answ
 
 **Number of products is non-linear.** Two-product customers show the lowest churn (7.6%), but customers with three or four products churn at 82.7% and 100% respectively. More is not always better — aggressive cross-selling without product fit destroys retention.
 
----
 
 ## Visualizations
 
@@ -51,7 +50,6 @@ This project analyzes churn patterns across 10,000 retail bank customers to answ
 
 ![Variable Importance](Variable_importance_rf.png)
 
----
 
 ## Methods
 
@@ -96,7 +94,6 @@ Random Forest delivered the strongest overall performance, though logistic regre
 - **Libraries:** tidyverse, caret, glmnet, randomForest, pROC, corrplot, ggplot2, lsr, pscl
 - **Methods:** Hypothesis testing, logistic regression, LASSO, random forest, ROC analysis
 
----
 
 ## Repository Structure
 
@@ -114,7 +111,6 @@ portfolio-bank-churn-analysis/
 └── Variable_importance_rf.png
 ```
 
----
 
 ## What I Would Do Next
 
